@@ -13,7 +13,7 @@
 - The data file consists of data which is delimited per line. The code supports different delimiters such as comma, tab, and space.
 - The names file has one name of attribute per line.
 - The java code is present in src/com.uncc.kdd folder.
-- Powerpoint slides are found at https://github.com/katy-mitchell/KDDGroup3Project
+- Powerpoint slides are found in this github repository.
 
 ## Running the Application
 - Running the MainApp.java program will yeild the GUI.
@@ -25,6 +25,3 @@
 
 ## Video Demo
 todo: link
-
-## Powerpoint Slides
-https://docs.google.com/presentation/d/1P3ncUBCTHjY9xQTOqjCnRlcjlIzFdCE5iPkIGb2Ty3I/edit?usp=sharing
