@@ -1,11 +1,12 @@
-# Group 3 - KDD Project
+# Group 3 - ITCS 6162 Project
 
-Jagadeesh Sudhakaraiah
-Karthik Rangaraj
-Aravind Telidevara
-Katy Mitchell
-Keerthana Sridhar
-Krupa Chand
+## Authors
+- Jagadeesh Sudhakaraiah
+- Karthik Rangaraj
+- Aravind Telidevara
+- Katy Mitchell
+- Keerthana Sridhar
+- Krupa Chand
 
 ## Input:
 - The input files(car and mammogram) are present in /input files folder.
