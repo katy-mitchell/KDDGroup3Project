@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="TOP_LEFT" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncc.kdd.Control">
+    <padding><Insets bottom="25" left="25" right="25" top="25" /></padding>
+
+    <Label text="Data set File Path:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+
+    <Label text="Attribute File Path:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+
+    <Label text="Delimiter:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <ComboBox fx:id="delimiterOptions" minWidth="100" prefHeight="25.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+    <Button minWidth="120" onAction="#LoaddatasetAndAttributes" prefHeight="30.0" prefWidth="200.0" text="Load dataset and Attributes" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+
+
+    <Label text="Minimum Support:" GridPane.rowIndex="7" />
+    <TextField fx:id="minimumSupport" maxWidth="200.0" prefHeight="25.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Label text="Minimum Confidence (%):" GridPane.columnIndex="0" GridPane.rowIndex="9" />
+    <TextField fx:id="minimumConfidence" maxWidth="200.0" prefHeight="25.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+
+    <Label prefHeight="31.0" prefWidth="138.0" text="Decision Attribute" GridPane.rowIndex="8" />
+    <ComboBox fx:id="decisionAttributeSelection" maxWidth="201.0" prefHeight="30.0" prefWidth="201.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+
+    <Label text="Initial value:" GridPane.rowIndex="11" />
+    <TextField fx:id="InitialValue" maxWidth="200.0" prefHeight="30.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+
+    <Label text="End value:" GridPane.rowIndex="12" />
+    <TextField fx:id="EndValue" maxWidth="201.0" prefHeight="30.0" prefWidth="201.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+
+
+    <Label text="Stable Attribute:" GridPane.columnIndex="0" GridPane.rowIndex="10" />
+    <ListView fx:id="stableAttributeSelection" maxHeight="100" maxWidth="200" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+
+    <Label text="Output File Path:" GridPane.rowIndex="2" />
+
+
+   <Button onAction="#generateActionRules" prefHeight="31.0" prefWidth="202.0" text="Generate Action Rules" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+   <Button mnemonicParsing="false" onAction="#GuiInputFT" prefHeight="25.0" prefWidth="201.0" text="Select Data Set" GridPane.columnIndex="1" />
+   <Button mnemonicParsing="false" onAction="#AttributeFT" prefHeight="25.0" prefWidth="200.0" text="Select Attribute File" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   <Label alignment="CENTER" prefHeight="29.0" prefWidth="201.0" text="Proceed only after loading files" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+   <Button mnemonicParsing="false" onAction="#OutputFT" prefHeight="25.0" prefWidth="202.0" text="Select Ouput Directory" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   <Label alignment="CENTER" prefHeight="29.0" prefWidth="201.0" text="Output will be generated in out.txt" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+   <Label fx:id="inputFileLabel" prefHeight="17.0" prefWidth="99.0" GridPane.columnIndex="2" />
+   <Label fx:id="attributeFileLabel" prefHeight="17.0" prefWidth="111.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+   <Label fx:id="outputFileLabel" prefHeight="17.0" prefWidth="132.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+   <Label alignment="CENTER" prefHeight="29.0" prefWidth="201.0" text="Output will be generated in out.md" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+
+</GridPane>

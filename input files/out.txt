@@ -1,0 +1,1193 @@
+
+$$ Computing LERS! $$
+
+
+$$ Iteration 1 $$
+
+$$ CERTAIN RULES $$
+
+
+$$ POSSIBLE RULES $$
+
+(buying - high ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - high ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - high ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - high ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - low ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - low ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - low ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - low ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - vhigh ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - vhigh ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - vhigh ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - vhigh ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - med ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - med ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - med ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(buying - med ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 2 ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 2 ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 2 ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 2 ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 3 ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 3 ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 3 ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 3 ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 4 ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 4 ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 4 ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 4 ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 5more ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 5more ) --> maint - low #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 5more ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(doors - 5more ) --> maint - med #### SUPPORT: 108 #### CONFIDENCE: 25.00 percent
+(persons - 2 ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2 ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2 ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2 ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 4 ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 4 ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 4 ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 4 ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - more ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - more ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - more ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - more ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - small ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - small ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - small ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - small ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - big ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - big ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - big ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - big ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - med ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - med ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - med ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(lug_boot - med ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - high ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - high ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - high ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - high ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - med ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - med ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - med ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - med ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(class - acc ) --> maint - high #### SUPPORT: 105 #### CONFIDENCE: 27.34 percent
+(class - acc ) --> maint - med #### SUPPORT: 115 #### CONFIDENCE: 29.95 percent
+(class - unacc ) --> maint - high #### SUPPORT: 314 #### CONFIDENCE: 25.95 percent
+(class - unacc ) --> maint - vhigh #### SUPPORT: 360 #### CONFIDENCE: 29.75 percent
+(class - vgood ) --> maint - low #### SUPPORT: 26 #### CONFIDENCE: 40.00 percent
+(class - vgood ) --> maint - med #### SUPPORT: 26 #### CONFIDENCE: 40.00 percent
+(class - good ) --> maint - low #### SUPPORT: 46 #### CONFIDENCE: 66.67 percent
+(class - good ) --> maint - med #### SUPPORT: 23 #### CONFIDENCE: 33.33 percent
+
+$$ Iteration 2 $$
+
+$$ CERTAIN RULES $$
+
+(buying - med, class - good ) --> maint - low #### SUPPORT: 23 #### CONFIDENCE: 100.00 percent
+
+$$ POSSIBLE RULES $$
+
+(buying - high, doors - 2 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 2 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 2 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 2 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 3 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 3 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 3 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 3 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 4 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 4 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 4 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 4 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 5more ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 5more ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 5more ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, doors - 5more ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, class - acc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - high, class - acc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - high, class - acc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - high, class - unacc ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 33.33 percent
+(buying - low, doors - 2 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 2 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 2 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 2 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 3 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 3 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 3 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 3 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 4 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 4 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 4 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 4 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 5more ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 5more ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 5more ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, doors - 5more ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, class - acc ) --> maint - high #### SUPPORT: 33 #### CONFIDENCE: 37.08 percent
+(buying - low, class - acc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 40.45 percent
+(buying - low, class - unacc ) --> maint - vhigh #### SUPPORT: 72 #### CONFIDENCE: 27.91 percent
+(buying - low, class - good ) --> maint - low #### SUPPORT: 23 #### CONFIDENCE: 50.00 percent
+(buying - low, class - good ) --> maint - med #### SUPPORT: 23 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, doors - 2 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 2 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 2 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 2 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 3 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 3 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 3 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 3 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 4 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 4 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 4 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 4 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 5more ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 5more ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 5more ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, doors - 5more ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, class - acc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, class - acc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, class - unacc ) --> maint - high #### SUPPORT: 108 #### CONFIDENCE: 30.00 percent
+(buying - vhigh, class - unacc ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 30.00 percent
+(buying - med, doors - 2 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 2 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 2 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 2 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 3 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 3 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 3 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 3 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 4 ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 4 ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 4 ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 4 ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 5more ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 5more ) --> maint - low #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 5more ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, doors - 5more ) --> maint - med #### SUPPORT: 27 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, class - acc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 31.30 percent
+(buying - med, class - acc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 31.30 percent
+(buying - med, class - acc ) --> maint - med #### SUPPORT: 33 #### CONFIDENCE: 28.70 percent
+(buying - med, class - unacc ) --> maint - high #### SUPPORT: 72 #### CONFIDENCE: 26.87 percent
+(buying - med, class - unacc ) --> maint - vhigh #### SUPPORT: 72 #### CONFIDENCE: 26.87 percent
+(doors - 2, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, class - acc ) --> maint - high #### SUPPORT: 22 #### CONFIDENCE: 27.16 percent
+(doors - 2, class - acc ) --> maint - med #### SUPPORT: 25 #### CONFIDENCE: 30.86 percent
+(doors - 2, class - unacc ) --> maint - high #### SUPPORT: 84 #### CONFIDENCE: 25.77 percent
+(doors - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 94 #### CONFIDENCE: 28.83 percent
+(doors - 3, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, class - acc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 27.27 percent
+(doors - 3, class - acc ) --> maint - med #### SUPPORT: 30 #### CONFIDENCE: 30.30 percent
+(doors - 3, class - unacc ) --> maint - high #### SUPPORT: 78 #### CONFIDENCE: 26.00 percent
+(doors - 3, class - unacc ) --> maint - vhigh #### SUPPORT: 90 #### CONFIDENCE: 30.00 percent
+(doors - 4, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, class - acc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 27.45 percent
+(doors - 4, class - acc ) --> maint - med #### SUPPORT: 30 #### CONFIDENCE: 29.41 percent
+(doors - 4, class - unacc ) --> maint - high #### SUPPORT: 76 #### CONFIDENCE: 26.03 percent
+(doors - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 88 #### CONFIDENCE: 30.14 percent
+(doors - 5more, persons - 2 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 4 ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 4 ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 4 ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 4 ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - more ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - more ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - more ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - more ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - small ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - small ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - small ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - small ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - big ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - big ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - big ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - big ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, lug_boot - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - high ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - high ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - high ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - high ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - med ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - med ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - med ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - med ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, class - acc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 27.45 percent
+(doors - 5more, class - acc ) --> maint - med #### SUPPORT: 30 #### CONFIDENCE: 29.41 percent
+(doors - 5more, class - unacc ) --> maint - high #### SUPPORT: 76 #### CONFIDENCE: 26.03 percent
+(doors - 5more, class - unacc ) --> maint - vhigh #### SUPPORT: 88 #### CONFIDENCE: 30.14 percent
+(persons - 2, lug_boot - small ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, class - unacc ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2, class - unacc ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 2, class - unacc ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, class - acc ) --> maint - high #### SUPPORT: 54 #### CONFIDENCE: 27.27 percent
+(persons - 4, class - acc ) --> maint - med #### SUPPORT: 60 #### CONFIDENCE: 30.30 percent
+(persons - 4, class - unacc ) --> maint - high #### SUPPORT: 84 #### CONFIDENCE: 26.92 percent
+(persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 34.62 percent
+(persons - 4, class - good ) --> maint - low #### SUPPORT: 24 #### CONFIDENCE: 66.67 percent
+(persons - more, lug_boot - small ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, class - acc ) --> maint - high #### SUPPORT: 51 #### CONFIDENCE: 27.42 percent
+(persons - more, class - acc ) --> maint - med #### SUPPORT: 55 #### CONFIDENCE: 29.57 percent
+(persons - more, class - unacc ) --> maint - high #### SUPPORT: 86 #### CONFIDENCE: 26.71 percent
+(persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 108 #### CONFIDENCE: 33.54 percent
+(persons - more, class - good ) --> maint - low #### SUPPORT: 22 #### CONFIDENCE: 66.67 percent
+(lug_boot - small, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, class - acc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 26.67 percent
+(lug_boot - small, class - acc ) --> maint - low #### SUPPORT: 28 #### CONFIDENCE: 26.67 percent
+(lug_boot - small, class - acc ) --> maint - med #### SUPPORT: 35 #### CONFIDENCE: 33.33 percent
+(lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 116 #### CONFIDENCE: 25.78 percent
+(lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 130 #### CONFIDENCE: 28.89 percent
+(lug_boot - big, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, class - acc ) --> maint - high #### SUPPORT: 40 #### CONFIDENCE: 27.78 percent
+(lug_boot - big, class - acc ) --> maint - med #### SUPPORT: 40 #### CONFIDENCE: 27.78 percent
+(lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 96 #### CONFIDENCE: 26.09 percent
+(lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 112 #### CONFIDENCE: 30.43 percent
+(lug_boot - big, class - vgood ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(lug_boot - big, class - vgood ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(lug_boot - big, class - good ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 66.67 percent
+(lug_boot - med, safety - high ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - high ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - high ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - high ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - med ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - med ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - med ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - med ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, class - acc ) --> maint - high #### SUPPORT: 37 #### CONFIDENCE: 27.41 percent
+(lug_boot - med, class - acc ) --> maint - med #### SUPPORT: 40 #### CONFIDENCE: 29.63 percent
+(lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 102 #### CONFIDENCE: 26.02 percent
+(lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 118 #### CONFIDENCE: 30.10 percent
+(lug_boot - med, class - good ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 66.67 percent
+(safety - high, class - acc ) --> maint - high #### SUPPORT: 56 #### CONFIDENCE: 27.45 percent
+(safety - high, class - acc ) --> maint - med #### SUPPORT: 56 #### CONFIDENCE: 27.45 percent
+(safety - high, class - unacc ) --> maint - high #### SUPPORT: 75 #### CONFIDENCE: 27.08 percent
+(safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 98 #### CONFIDENCE: 35.38 percent
+(safety - high, class - vgood ) --> maint - low #### SUPPORT: 26 #### CONFIDENCE: 40.00 percent
+(safety - high, class - vgood ) --> maint - med #### SUPPORT: 26 #### CONFIDENCE: 40.00 percent
+(safety - high, class - good ) --> maint - low #### SUPPORT: 20 #### CONFIDENCE: 66.67 percent
+(safety - low, class - unacc ) --> maint - high #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low, class - unacc ) --> maint - low #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - low, class - unacc ) --> maint - med #### SUPPORT: 144 #### CONFIDENCE: 25.00 percent
+(safety - med, class - acc ) --> maint - high #### SUPPORT: 49 #### CONFIDENCE: 27.22 percent
+(safety - med, class - acc ) --> maint - low #### SUPPORT: 46 #### CONFIDENCE: 25.56 percent
+(safety - med, class - acc ) --> maint - med #### SUPPORT: 59 #### CONFIDENCE: 32.78 percent
+(safety - med, class - unacc ) --> maint - high #### SUPPORT: 95 #### CONFIDENCE: 26.61 percent
+(safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 118 #### CONFIDENCE: 33.05 percent
+(safety - med, class - good ) --> maint - low #### SUPPORT: 26 #### CONFIDENCE: 66.67 percent
+
+$$ Iteration 3 $$
+
+$$ CERTAIN RULES $$
+
+
+$$ POSSIBLE RULES $$
+
+(buying - high, doors - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 31.03 percent
+(buying - high, doors - 3, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 33.33 percent
+(buying - high, doors - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 34.62 percent
+(buying - high, doors - 5more, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 34.62 percent
+(buying - high, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, persons - 4, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - 4, class - acc ) --> maint - low #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - 4, class - acc ) --> maint - med #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 40.00 percent
+(buying - high, persons - more, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - more, class - acc ) --> maint - low #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - more, class - acc ) --> maint - med #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - high, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 40.00 percent
+(buying - high, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 29.27 percent
+(buying - high, lug_boot - big, class - acc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(buying - high, lug_boot - big, class - acc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(buying - high, lug_boot - big, class - acc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(buying - high, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 37.50 percent
+(buying - high, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 34.29 percent
+(buying - high, safety - high, class - acc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 33.33 percent
+(buying - high, safety - high, class - acc ) --> maint - low #### SUPPORT: 23 #### CONFIDENCE: 33.33 percent
+(buying - high, safety - high, class - acc ) --> maint - med #### SUPPORT: 23 #### CONFIDENCE: 33.33 percent
+(buying - high, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 48.00 percent
+(buying - high, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - high, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 34.29 percent
+(buying - low, doors - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 20 #### CONFIDENCE: 28.17 percent
+(buying - low, doors - 3, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 28.57 percent
+(buying - low, doors - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 17 #### CONFIDENCE: 27.42 percent
+(buying - low, doors - 5more, class - unacc ) --> maint - vhigh #### SUPPORT: 17 #### CONFIDENCE: 27.42 percent
+(buying - low, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, persons - 4, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 37.50 percent
+(buying - low, persons - 4, class - acc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 37.50 percent
+(buying - low, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 33.33 percent
+(buying - low, persons - more, class - acc ) --> maint - high #### SUPPORT: 15 #### CONFIDENCE: 36.59 percent
+(buying - low, persons - more, class - acc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 43.90 percent
+(buying - low, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - low, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 29 #### CONFIDENCE: 30.53 percent
+(buying - low, lug_boot - big, class - acc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 66.67 percent
+(buying - low, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big, class - unacc ) --> maint - low #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - big, class - unacc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - low, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 27.71 percent
+(buying - low, safety - high, class - acc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 69.70 percent
+(buying - low, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - low, safety - med, class - acc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 41.07 percent
+(buying - low, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 37.10 percent
+(buying - vhigh, doors - 2, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 28.72 percent
+(buying - vhigh, doors - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 28.72 percent
+(buying - vhigh, doors - 3, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 30.00 percent
+(buying - vhigh, doors - 3, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 30.00 percent
+(buying - vhigh, doors - 4, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 30.68 percent
+(buying - vhigh, doors - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 30.68 percent
+(buying - vhigh, doors - 5more, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 30.68 percent
+(buying - vhigh, doors - 5more, class - unacc ) --> maint - vhigh #### SUPPORT: 27 #### CONFIDENCE: 30.68 percent
+(buying - vhigh, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, persons - 4, class - acc ) --> maint - low #### SUPPORT: 18 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, persons - 4, class - acc ) --> maint - med #### SUPPORT: 18 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - vhigh, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - vhigh, persons - more, class - acc ) --> maint - low #### SUPPORT: 18 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, persons - more, class - acc ) --> maint - med #### SUPPORT: 18 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, persons - more, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - vhigh, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 33.33 percent
+(buying - vhigh, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 27.69 percent
+(buying - vhigh, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 27.69 percent
+(buying - vhigh, lug_boot - big, class - acc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, lug_boot - big, class - acc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 32.14 percent
+(buying - vhigh, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 32.14 percent
+(buying - vhigh, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 30.51 percent
+(buying - vhigh, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 30.51 percent
+(buying - vhigh, safety - high, class - acc ) --> maint - low #### SUPPORT: 23 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, safety - high, class - acc ) --> maint - med #### SUPPORT: 23 #### CONFIDENCE: 50.00 percent
+(buying - vhigh, safety - high, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 36.73 percent
+(buying - vhigh, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 36.73 percent
+(buying - vhigh, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - vhigh, safety - med, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 30.51 percent
+(buying - vhigh, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 30.51 percent
+(buying - med, doors - 2, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(buying - med, doors - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(buying - med, doors - 3, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(buying - med, doors - 3, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(buying - med, doors - 4, class - unacc ) --> maint - high #### SUPPORT: 17 #### CONFIDENCE: 26.56 percent
+(buying - med, doors - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 17 #### CONFIDENCE: 26.56 percent
+(buying - med, doors - 5more, class - unacc ) --> maint - high #### SUPPORT: 17 #### CONFIDENCE: 26.56 percent
+(buying - med, doors - 5more, class - unacc ) --> maint - vhigh #### SUPPORT: 17 #### CONFIDENCE: 26.56 percent
+(buying - med, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, persons - 4, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - med, persons - 4, class - acc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - med, persons - 4, class - acc ) --> maint - med #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - med, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - med, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 30.00 percent
+(buying - med, persons - more, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 32.73 percent
+(buying - med, persons - more, class - acc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 32.73 percent
+(buying - med, persons - more, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 27.27 percent
+(buying - med, persons - more, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 28.13 percent
+(buying - med, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 18 #### CONFIDENCE: 28.13 percent
+(buying - med, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 29 #### CONFIDENCE: 28.43 percent
+(buying - med, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 29 #### CONFIDENCE: 28.43 percent
+(buying - med, lug_boot - big, class - acc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(buying - med, lug_boot - big, class - acc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(buying - med, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big, class - unacc ) --> maint - low #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - big, class - unacc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 25.00 percent
+(buying - med, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 26.74 percent
+(buying - med, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 26.74 percent
+(buying - med, safety - high, class - acc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 41.07 percent
+(buying - med, safety - high, class - acc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 41.07 percent
+(buying - med, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying - med, safety - med, class - acc ) --> maint - med #### SUPPORT: 23 #### CONFIDENCE: 38.98 percent
+(buying - med, safety - med, class - unacc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 31.94 percent
+(buying - med, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 23 #### CONFIDENCE: 31.94 percent
+(doors - 2, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, persons - 4, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 31.25 percent
+(doors - 2, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 22 #### CONFIDENCE: 26.83 percent
+(doors - 2, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 34.15 percent
+(doors - 2, persons - more, class - unacc ) --> maint - high #### SUPPORT: 26 #### CONFIDENCE: 26.00 percent
+(doors - 2, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 30 #### CONFIDENCE: 30.00 percent
+(doors - 2, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 32 #### CONFIDENCE: 25.40 percent
+(doors - 2, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 34 #### CONFIDENCE: 26.98 percent
+(doors - 2, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 2, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 2, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 25.93 percent
+(doors - 2, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 29.63 percent
+(doors - 2, safety - high, class - unacc ) --> maint - high #### SUPPORT: 21 #### CONFIDENCE: 26.58 percent
+(doors - 2, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 32.91 percent
+(doors - 2, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 2, safety - med, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 26.21 percent
+(doors - 2, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 31.07 percent
+(doors - 3, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, persons - 4, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 31.25 percent
+(doors - 3, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 22 #### CONFIDENCE: 26.83 percent
+(doors - 3, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 34.15 percent
+(doors - 3, persons - more, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 29.41 percent
+(doors - 3, persons - more, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(doors - 3, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 35.14 percent
+(doors - 3, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 25.93 percent
+(doors - 3, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 29.63 percent
+(doors - 3, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 3, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 3, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 26 #### CONFIDENCE: 26.00 percent
+(doors - 3, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 30 #### CONFIDENCE: 30.00 percent
+(doors - 3, safety - high, class - acc ) --> maint - high #### SUPPORT: 15 #### CONFIDENCE: 27.78 percent
+(doors - 3, safety - high, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 27.78 percent
+(doors - 3, safety - high, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(doors - 3, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 24 #### CONFIDENCE: 36.36 percent
+(doors - 3, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 3, safety - med, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 33.33 percent
+(doors - 3, safety - med, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.67 percent
+(doors - 3, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 30 #### CONFIDENCE: 33.33 percent
+(doors - 4, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, persons - 4, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 29.41 percent
+(doors - 4, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(doors - 4, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 35.14 percent
+(doors - 4, persons - more, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 29.41 percent
+(doors - 4, persons - more, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(doors - 4, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 35.14 percent
+(doors - 4, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 25.93 percent
+(doors - 4, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 29.63 percent
+(doors - 4, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 4, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 4, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 4, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 4, safety - high, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(doors - 4, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 24 #### CONFIDENCE: 36.36 percent
+(doors - 4, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 4, safety - med, class - acc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 32.00 percent
+(doors - 4, safety - med, class - unacc ) --> maint - high #### SUPPORT: 22 #### CONFIDENCE: 26.83 percent
+(doors - 4, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 34.15 percent
+(doors - 5more, persons - 2, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 2, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, persons - 4, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 29.41 percent
+(doors - 5more, persons - 4, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(doors - 5more, persons - 4, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 35.14 percent
+(doors - 5more, persons - more, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 29.41 percent
+(doors - 5more, persons - more, class - unacc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.03 percent
+(doors - 5more, persons - more, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 35.14 percent
+(doors - 5more, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 25.93 percent
+(doors - 5more, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 29.63 percent
+(doors - 5more, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 5more, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 5more, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.09 percent
+(doors - 5more, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 30.43 percent
+(doors - 5more, safety - high, class - unacc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(doors - 5more, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 24 #### CONFIDENCE: 36.36 percent
+(doors - 5more, safety - low, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low, class - unacc ) --> maint - low #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - low, class - unacc ) --> maint - med #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(doors - 5more, safety - med, class - acc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 32.00 percent
+(doors - 5more, safety - med, class - unacc ) --> maint - high #### SUPPORT: 22 #### CONFIDENCE: 26.83 percent
+(doors - 5more, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 28 #### CONFIDENCE: 34.15 percent
+(persons - 2, lug_boot - small, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - high, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 2, safety - med, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, class - acc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 26.67 percent
+(persons - 4, lug_boot - small, class - acc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 26.67 percent
+(persons - 4, lug_boot - small, class - acc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 33.33 percent
+(persons - 4, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 32 #### CONFIDENCE: 26.67 percent
+(persons - 4, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 40 #### CONFIDENCE: 33.33 percent
+(persons - 4, lug_boot - big, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, class - acc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.78 percent
+(persons - 4, lug_boot - big, class - acc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 27.78 percent
+(persons - 4, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 27.27 percent
+(persons - 4, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 36.36 percent
+(persons - 4, lug_boot - med, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.27 percent
+(persons - 4, lug_boot - med, class - acc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 30.30 percent
+(persons - 4, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 28 #### CONFIDENCE: 26.92 percent
+(persons - 4, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 34.62 percent
+(persons - 4, safety - high, class - acc ) --> maint - high #### SUPPORT: 30 #### CONFIDENCE: 27.78 percent
+(persons - 4, safety - high, class - acc ) --> maint - med #### SUPPORT: 30 #### CONFIDENCE: 27.78 percent
+(persons - 4, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 24 #### CONFIDENCE: 66.67 percent
+(persons - 4, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - 4, safety - med, class - acc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 26.67 percent
+(persons - 4, safety - med, class - acc ) --> maint - low #### SUPPORT: 24 #### CONFIDENCE: 26.67 percent
+(persons - 4, safety - med, class - acc ) --> maint - med #### SUPPORT: 30 #### CONFIDENCE: 33.33 percent
+(persons - 4, safety - med, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 28.57 percent
+(persons - 4, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 36 #### CONFIDENCE: 42.86 percent
+(persons - more, lug_boot - small, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, class - acc ) --> maint - med #### SUPPORT: 15 #### CONFIDENCE: 33.33 percent
+(persons - more, lug_boot - small, class - unacc ) --> maint - high #### SUPPORT: 36 #### CONFIDENCE: 26.09 percent
+(persons - more, lug_boot - small, class - unacc ) --> maint - vhigh #### SUPPORT: 42 #### CONFIDENCE: 30.43 percent
+(persons - more, lug_boot - big, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, class - acc ) --> maint - high #### SUPPORT: 20 #### CONFIDENCE: 27.78 percent
+(persons - more, lug_boot - big, class - acc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 27.78 percent
+(persons - more, lug_boot - big, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 27.27 percent
+(persons - more, lug_boot - big, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 36.36 percent
+(persons - more, lug_boot - med, safety - high ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - high ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - high ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - high ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - med ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - med ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - med ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - med ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, class - acc ) --> maint - high #### SUPPORT: 19 #### CONFIDENCE: 27.54 percent
+(persons - more, lug_boot - med, class - acc ) --> maint - med #### SUPPORT: 20 #### CONFIDENCE: 28.99 percent
+(persons - more, lug_boot - med, class - unacc ) --> maint - high #### SUPPORT: 26 #### CONFIDENCE: 27.08 percent
+(persons - more, lug_boot - med, class - unacc ) --> maint - vhigh #### SUPPORT: 34 #### CONFIDENCE: 35.42 percent
+(persons - more, safety - high, class - acc ) --> maint - high #### SUPPORT: 26 #### CONFIDENCE: 27.08 percent
+(persons - more, safety - high, class - acc ) --> maint - med #### SUPPORT: 26 #### CONFIDENCE: 27.08 percent
+(persons - more, safety - high, class - unacc ) --> maint - high #### SUPPORT: 15 #### CONFIDENCE: 30.61 percent
+(persons - more, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 26 #### CONFIDENCE: 53.06 percent
+(persons - more, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(persons - more, safety - med, class - acc ) --> maint - high #### SUPPORT: 25 #### CONFIDENCE: 27.78 percent
+(persons - more, safety - med, class - acc ) --> maint - med #### SUPPORT: 29 #### CONFIDENCE: 32.22 percent
+(persons - more, safety - med, class - unacc ) --> maint - high #### SUPPORT: 23 #### CONFIDENCE: 28.40 percent
+(persons - more, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 34 #### CONFIDENCE: 41.98 percent
+(lug_boot - small, safety - high, class - acc ) --> maint - high #### SUPPORT: 21 #### CONFIDENCE: 30.00 percent
+(lug_boot - small, safety - high, class - acc ) --> maint - med #### SUPPORT: 21 #### CONFIDENCE: 30.00 percent
+(lug_boot - small, safety - high, class - unacc ) --> maint - high #### SUPPORT: 27 #### CONFIDENCE: 26.73 percent
+(lug_boot - small, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 34 #### CONFIDENCE: 33.66 percent
+(lug_boot - small, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - small, safety - med, class - unacc ) --> maint - high #### SUPPORT: 41 #### CONFIDENCE: 26.11 percent
+(lug_boot - small, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 30.57 percent
+(lug_boot - big, safety - high, class - acc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high, class - acc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high, class - acc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high, class - acc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - high, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 27.27 percent
+(lug_boot - big, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 36.36 percent
+(lug_boot - big, safety - high, class - vgood ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(lug_boot - big, safety - high, class - vgood ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 40.00 percent
+(lug_boot - big, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - big, safety - med, class - acc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 30.00 percent
+(lug_boot - big, safety - med, class - acc ) --> maint - med #### SUPPORT: 24 #### CONFIDENCE: 30.00 percent
+(lug_boot - big, safety - med, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 27.27 percent
+(lug_boot - big, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 36.36 percent
+(lug_boot - big, safety - med, class - good ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 66.67 percent
+(lug_boot - med, safety - high, class - acc ) --> maint - high #### SUPPORT: 19 #### CONFIDENCE: 27.14 percent
+(lug_boot - med, safety - high, class - acc ) --> maint - med #### SUPPORT: 19 #### CONFIDENCE: 27.14 percent
+(lug_boot - med, safety - high, class - unacc ) --> maint - high #### SUPPORT: 24 #### CONFIDENCE: 27.27 percent
+(lug_boot - med, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 32 #### CONFIDENCE: 36.36 percent
+(lug_boot - med, safety - low, class - unacc ) --> maint - high #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low, class - unacc ) --> maint - low #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - low, class - unacc ) --> maint - med #### SUPPORT: 48 #### CONFIDENCE: 25.00 percent
+(lug_boot - med, safety - med, class - acc ) --> maint - high #### SUPPORT: 18 #### CONFIDENCE: 27.69 percent
+(lug_boot - med, safety - med, class - acc ) --> maint - med #### SUPPORT: 21 #### CONFIDENCE: 32.31 percent
+(lug_boot - med, safety - med, class - unacc ) --> maint - high #### SUPPORT: 30 #### CONFIDENCE: 26.79 percent
+(lug_boot - med, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 38 #### CONFIDENCE: 33.93 percent
+
+$$ Iteration 4 $$
+
+$$ CERTAIN RULES $$
+
+
+$$ POSSIBLE RULES $$
+
+(persons - 2, lug_boot - small, safety - high, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - high, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - small, safety - med, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - high, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - big, safety - med, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - high, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 2, lug_boot - med, safety - med, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - small, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 36.36 percent
+(persons - 4, lug_boot - big, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - big, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - 4, lug_boot - med, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - small, safety - med, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 32.65 percent
+(persons - more, lug_boot - big, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - big, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low, class - unacc ) --> maint - high #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low, class - unacc ) --> maint - low #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low, class - unacc ) --> maint - vhigh #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+(persons - more, lug_boot - med, safety - low, class - unacc ) --> maint - med #### SUPPORT: 16 #### CONFIDENCE: 25.00 percent
+Extraction cannot be done anymore!
+
+$$ Computing Action Rules! $$
+
+
+$$ ACTION RULES $$
+
+
+(class: acc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 36 #### CONFIDENCE: 26.97 percent
+(safety = high, class: acc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 36 #### CONFIDENCE: 26.97 percent
+(safety = med, class: acc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 36 #### CONFIDENCE: 26.97 percent
+(safety = med, class: unacc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 36 #### CONFIDENCE: 26.67 percent
+(lug_boot = big, safety = med, class: unacc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 36 #### CONFIDENCE: 25.00 percent
+(buying: low --> vhigh, class = acc ) --> (maint: vhigh --> low) #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(buying: low --> vhigh, lug_boot = big, class = acc ) --> (maint: vhigh --> low) #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(buying: low --> vhigh, safety = high, class = acc ) --> (maint: vhigh --> low) #### SUPPORT: 16 #### CONFIDENCE: 33.33 percent
+(lug_boot = big, safety = high, class: acc --> vgood ) --> (maint: vhigh --> low) #### SUPPORT: 16 #### CONFIDENCE: 26.67 percent
+(lug_boot = big, safety = med, class: acc --> good ) --> (maint: vhigh --> low) #### SUPPORT: 16 #### CONFIDENCE: 44.44 percent
+(safety = high, class: acc --> vgood ) --> (maint: vhigh --> low) #### SUPPORT: 23 #### CONFIDENCE: 27.88 percent
+(safety = high, class: unacc --> vgood ) --> (maint: vhigh --> low) #### SUPPORT: 24 #### CONFIDENCE: 26.67 percent
