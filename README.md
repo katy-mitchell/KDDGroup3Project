@@ -8,13 +8,13 @@
 - Keerthana Sridhar
 - Krupa Chand
 
-### Important Files
+## Important Files
 - The input files(car and mammogram) are present in /input files folder.
 - The data file consists of data which is delimited per line. The code supports different delimiters such as comma, tab, and space.
 - The names file has one name of attribute per line.
 - The java code is present in src/com.uncc.kdd folder.
 
-## Running the Application:
+## Running the Application
 - Running the MainApp.java program will yeild the GUI.
 - Choose the data file and name(attribute) files to upload from the /input files folder by clicking the 'Select Data Set' and 'Select Attribute File' buttons respectively. Also specify an output directory path to store the output files after the execution of the program. After which, select the delimiter for the data file and Click 'Load dataset and Attributes' to read the data and name files.
 - Enter the support and confidence values. These values are used as filters for both the LERS and Action Rules.
